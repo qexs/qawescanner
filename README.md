@@ -9,7 +9,9 @@ git clone https://github.com/qwexsa0/qawescanner/
 ```
 cd qawe.sh
 ```
+```
 chmod +x qawe.sh
+```
 ```
 bash qawe.sh
 ```
