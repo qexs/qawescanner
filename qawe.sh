@@ -9,8 +9,8 @@
 output_file="qawe.txt"
 echo "Tarama sonuçları: " > $output_file
 
-# 1. Site linki iste
-read -p "Lütfen taramak istediğiniz site linkini girin (örn: https://ornek.com): " site
+read -p "\e[1;33mLütfen taramak istediğiniz site linkini girin (örn: https://ornek.com): \e[0m" site
+
 
 base_url=$(echo "$site" | sed 's|http[s]://||; s|www.||')
 
