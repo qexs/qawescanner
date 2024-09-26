@@ -9,6 +9,10 @@
 output_file="qawe.txt"
 echo "Tarama sonuçları: " > $output_file
 
+echo -e "\e[1m\e[32mDeveloper\e[0m \e[1m\e[36mqwexsa0\e[0m"
+echo -e "\e[1;32mDiscord\e[0m \e[1m\e[36mqawexsa1\e[0m"
+
+
 read -p "\e[1;33mLütfen taramak istediğiniz site linkini girin (örn: https://ornek.com): \e[0m" site
 
 
